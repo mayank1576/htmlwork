@@ -1,0 +1,25 @@
+*{
+    color: grey;
+}
+p{
+    color: red;
+}
+.hi{
+    color: aqua;
+    background-color: black;
+}
+#My{
+    color: yellow;
+    background-color: red;
+}
+[type="text"]{
+    border: 2px solid black;
+    color: lawngreen;
+}
+div p{
+    background-color: purple;
+    color: black;
+}
+ol > li{
+    background-color: orange;
+}

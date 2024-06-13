@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center" style="background-color: red; color: pink;">User Form</h1><hr>
+    <form action="./class1.html" method="post">
+        <pre>
+            <fieldset style="background-color: burlywood; color: blue; font-style: italic;"><legend style="color: blue; font-style: italic;">Personal Deatail</legend>
+            User name :<input type="text" required name="uname">
+            Password  :<input type="password" required name="uid">
+            User age  :<input type="number" name="age">
+            Address   :<textarea cols="20" rows="3" name="add"></textarea>
+            Email ID  :<input type="email" value="Mayanky@6969gmail.com" name="email" readonly>
+        </fieldset>
+        <fieldset style="background-color: burlywood; color: blue; font-style: italic;"><legend style="color: blue; font-style: italic;">Offical Deatail</legend>
+            Education : <select>
+                <option value="ug">Under Graduction</option>
+                <option value="pg">Post Graduction</option>
+                <option value="g">Graduction</option>
+            </select>
+            Join date :<input type="date">
+            Off time  :<input type="time">
+            Gender    :Male <input name="gender" type="radio" value="M" required> Female <input name="gender" required type="radio" value="F">
+            Resume    :<input type="file">
+        </fieldset>
+            Decleration :<input type="checkbox" value="yes" name="chk" required> All the info is true
+                        <input type="submit" value="Regester"> <input type="reset" value="Refresh">
+        </pre>
+    </form>
+</body>
+</html>
